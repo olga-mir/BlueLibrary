@@ -20,6 +20,8 @@
 		450EECE517A9B05E00957F62 /* HTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 450EECE417A9B05E00957F62 /* HTTPClient.m */; };
 		77882B191957E1FC005532B0 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 77882B181957E1FC005532B0 /* Album.m */; };
 		77882B1C1957E27D005532B0 /* AlbumView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77882B1B1957E27D005532B0 /* AlbumView.m */; };
+		77882B261963C5FC005532B0 /* PersistencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77882B251963C5FC005532B0 /* PersistencyManager.m */; };
+		77882B29196BC7AF005532B0 /* LibraryAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 77882B28196BC7AF005532B0 /* LibraryAPI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,10 @@
 		77882B181957E1FC005532B0 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
 		77882B1A1957E27D005532B0 /* AlbumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumView.h; sourceTree = "<group>"; };
 		77882B1B1957E27D005532B0 /* AlbumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumView.m; sourceTree = "<group>"; };
+		77882B241963C5FC005532B0 /* PersistencyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistencyManager.h; sourceTree = "<group>"; };
+		77882B251963C5FC005532B0 /* PersistencyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistencyManager.m; sourceTree = "<group>"; };
+		77882B27196BC7AF005532B0 /* LibraryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryAPI.h; sourceTree = "<group>"; };
+		77882B28196BC7AF005532B0 /* LibraryAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryAPI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,10 @@
 		450EECE217A9B04400957F62 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				77882B27196BC7AF005532B0 /* LibraryAPI.h */,
+				77882B28196BC7AF005532B0 /* LibraryAPI.m */,
+				77882B241963C5FC005532B0 /* PersistencyManager.h */,
+				77882B251963C5FC005532B0 /* PersistencyManager.m */,
 				450EECE317A9B05E00957F62 /* HTTPClient.h */,
 				450EECE417A9B05E00957F62 /* HTTPClient.m */,
 			);
@@ -216,8 +226,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77882B29196BC7AF005532B0 /* LibraryAPI.m in Sources */,
 				450EECCC17A9B03A00957F62 /* main.m in Sources */,
 				450EECD017A9B03A00957F62 /* AppDelegate.m in Sources */,
+				77882B261963C5FC005532B0 /* PersistencyManager.m in Sources */,
 				77882B1C1957E27D005532B0 /* AlbumView.m in Sources */,
 				450EECD917A9B03A00957F62 /* ViewController.m in Sources */,
 				77882B191957E1FC005532B0 /* Album.m in Sources */,
