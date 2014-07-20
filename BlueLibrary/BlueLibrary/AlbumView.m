@@ -24,10 +24,11 @@
 - (id)initWithFrame:(CGRect)frame albumCover:(NSString*)albumCover
 {
   self = [super initWithFrame:frame];
+  
   if (self)
   {
-    
     self.backgroundColor = [UIColor blackColor];
+    
     // the coverImage has a 5 pixels margin from its frame
     coverImage = [[UIImageView alloc] initWithFrame:CGRectMake(5, 5, frame.size.width-10, frame.size.height-10)];
     [self addSubview:coverImage];
@@ -37,6 +38,10 @@
     indicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyleWhiteLarge;
     [indicator startAnimating];
     [self addSubview:indicator];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"BLDownloadImageNotification"
+                                                        object:self
+                                                      userInfo:@{@"imageView":coverImage, @"coverUrl":albumCover}];
   }
   return self;
 }

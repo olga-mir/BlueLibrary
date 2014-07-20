@@ -35,7 +35,7 @@
 
 // Singleton pattern
 
-+ (LibraryAPI*)sharedInstance
++ (LibraryAPI *)sharedInstance
 {
   // Static variable to hold the instance of the class, available globally inside the class.
   static LibraryAPI *_sharedInstance = nil;
@@ -50,7 +50,7 @@
   return _sharedInstance;
 }
 
-- (NSArray*)getAlbums
+- (NSArray *)getAlbums
 {
   return [persistencyManager getAlbums];
 }

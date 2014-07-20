@@ -22,6 +22,8 @@
 		77882B1C1957E27D005532B0 /* AlbumView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77882B1B1957E27D005532B0 /* AlbumView.m */; };
 		77882B261963C5FC005532B0 /* PersistencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77882B251963C5FC005532B0 /* PersistencyManager.m */; };
 		77882B29196BC7AF005532B0 /* LibraryAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 77882B28196BC7AF005532B0 /* LibraryAPI.m */; };
+		77882B2C196BCABF005532B0 /* Album+TableRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 77882B2B196BCABF005532B0 /* Album+TableRepresentation.m */; };
+		77FC214F1978DEA200F9F48E /* HorizontalScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FC214E1978DEA200F9F48E /* HorizontalScroller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,10 @@
 		77882B251963C5FC005532B0 /* PersistencyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistencyManager.m; sourceTree = "<group>"; };
 		77882B27196BC7AF005532B0 /* LibraryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryAPI.h; sourceTree = "<group>"; };
 		77882B28196BC7AF005532B0 /* LibraryAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryAPI.m; sourceTree = "<group>"; };
+		77882B2A196BCABF005532B0 /* Album+TableRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Album+TableRepresentation.h"; sourceTree = "<group>"; };
+		77882B2B196BCABF005532B0 /* Album+TableRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Album+TableRepresentation.m"; sourceTree = "<group>"; };
+		77FC214D1978DEA200F9F48E /* HorizontalScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalScroller.h; sourceTree = "<group>"; };
+		77FC214E1978DEA200F9F48E /* HorizontalScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalScroller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +161,10 @@
 		77882B201957E950005532B0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				77FC214D1978DEA200F9F48E /* HorizontalScroller.h */,
+				77FC214E1978DEA200F9F48E /* HorizontalScroller.m */,
+				77882B2A196BCABF005532B0 /* Album+TableRepresentation.h */,
+				77882B2B196BCABF005532B0 /* Album+TableRepresentation.m */,
 				77882B1A1957E27D005532B0 /* AlbumView.h */,
 				77882B1B1957E27D005532B0 /* AlbumView.m */,
 			);
@@ -231,7 +241,9 @@
 				450EECD017A9B03A00957F62 /* AppDelegate.m in Sources */,
 				77882B261963C5FC005532B0 /* PersistencyManager.m in Sources */,
 				77882B1C1957E27D005532B0 /* AlbumView.m in Sources */,
+				77FC214F1978DEA200F9F48E /* HorizontalScroller.m in Sources */,
 				450EECD917A9B03A00957F62 /* ViewController.m in Sources */,
+				77882B2C196BCABF005532B0 /* Album+TableRepresentation.m in Sources */,
 				77882B191957E1FC005532B0 /* Album.m in Sources */,
 				450EECE517A9B05E00957F62 /* HTTPClient.m in Sources */,
 			);
