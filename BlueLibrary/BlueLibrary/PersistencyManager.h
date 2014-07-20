@@ -11,9 +11,14 @@
 
 @interface PersistencyManager : NSObject
 
-- (NSArray*)getAlbums;
-- (void)addAlbum:(Album*)album atIndex:(int)index;
+- (NSArray *)getAlbums;
+
+- (void)addAlbum:(Album *)album atIndex:(int)index;
+
 - (void)deleteAlbumAtIndex:(int)index;
 
+- (void)saveImage:(UIImage *)image filename:(NSString *)filename;
+
+- (UIImage *)getImage:(NSString *)filename;
 
 @end
