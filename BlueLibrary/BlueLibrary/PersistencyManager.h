@@ -17,8 +17,11 @@
 
 - (void)deleteAlbumAtIndex:(int)index;
 
+// Save and get iamge from the iOS file system
 - (void)saveImage:(UIImage *)image filename:(NSString *)filename;
-
 - (UIImage *)getImage:(NSString *)filename;
+
+// Archiving album data
+- (void)saveAlbums;
 
 @end
